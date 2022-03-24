@@ -6,6 +6,8 @@
     padding: 0;
 }
 
+/* Entire page */
+
 .page {
     background-color: black;
     width: 100vw;
@@ -23,15 +25,39 @@
     text-align: center;
 }
 
+/* Header */
+
 .header {
     grid-column: 2 / 3;
 }
+
+/* Sidebar */
 
 .sidebar {
     grid-row: 1 / 3;
 }
 
+.options {
+    text-align: center;
+}
+
+.dash {
+    display: inline-block;
+    text-align: left;
+}
+
+/* Main body content */
+
 .main-content { 
 
 }
 
+
+/* Get rid of default text decorations */
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
